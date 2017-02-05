@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# PURPOSE
 
-* Ruby version
+The purpose is to have a starting template in Ruby on Rails with the following requirements:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Ruby on Rails v5
+2. Bootstrap v4 - alpha
+3. Bootstrap Theme - one theme from [Bootswatch](https://github.com/thomaspark/bootswatch)
+3. Database: PostgreSQL
+4. Testing framework: RSpec + Guard
