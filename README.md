@@ -29,3 +29,16 @@ One controller Greetings with an index action.
 ## Testing Framework RSpec + Guard
 
 Using RSpec for Testing and Guard
+
+## Database PostgreSQL
+
+This starter app uses PostgreSQL adapter.
+To setup: 
+create a .env file in your root folder.
+Add inside that .env file the following
+```
+export RAILS_DATABASE_NAME=<name of the database>
+export RAILS_TEST_DATABASE_NAME=<name of testing database>
+export RAILS_DATABASE_USERNAME=<username for accessing database>
+export RAILS_DATABASE_PASSWORD=<password for accessing database>
+```
