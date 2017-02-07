@@ -33,6 +33,14 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'delayed_job'
+gem 'delayed_job_active_record'
+
+# Authentication with Devise and Security Extension
+gem 'devise'
+gem 'devise_security_extension'
+gem 'rails_email_validator'
+
 # Adding Bootstrap alpha version
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
