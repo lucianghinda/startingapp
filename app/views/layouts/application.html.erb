@@ -14,6 +14,7 @@
     <%= render 'layouts/header' %>
     <div class="container">
       <%= render 'layouts/alert', alert: alert unless alert.nil? %>
+      <%= render 'layouts/notice', notice: notice unless notice.nil? %>
       <%= yield %>
     </div>
   </body>
