@@ -10,6 +10,8 @@ div#error_explanation{
     }
 }
 
-div.field_with_errors{
-    
+div.has-error{
+  div.form-control-feedback{
+    color: #e51c23;
+  }
 }
