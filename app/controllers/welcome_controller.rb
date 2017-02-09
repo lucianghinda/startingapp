@@ -1,0 +1,2 @@
+class WelcomeController < AuthenticatedController 
+end
