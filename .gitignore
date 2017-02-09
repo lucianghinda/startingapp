@@ -24,7 +24,7 @@
 .env
 
 # Ignore Config Files
+mailer_config.yml
 
 # MacOS Specific
-
 .DS_Store
