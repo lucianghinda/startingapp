@@ -1,3 +1,12 @@
+GIT
+  remote: https://github.com/phatworx/devise_security_extension.git
+  revision: b2ee978af7d49f0fb0e7271c6ac074dfb4d39353
+  branch: master
+  specs:
+    devise_security_extension (0.10.0)
+      devise (>= 3.0.0, < 5.0)
+      railties (>= 3.2.6, < 6.0)
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -88,9 +97,6 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
-    devise_security_extension (0.9.2)
-      devise (>= 2.0.0)
-      rails (>= 3.1.1)
     diff-lcs (1.2.5)
     dotenv (2.1.1)
     dotenv-rails (2.1.1)
@@ -297,7 +303,7 @@ DEPENDENCIES
   delayed_job
   delayed_job_active_record
   devise
-  devise_security_extension
+  devise_security_extension!
   dotenv-rails
   factory_girl_rails
   faker
@@ -323,4 +329,4 @@ DEPENDENCIES
   web-console (>= 3.3.0)
 
 BUNDLED WITH
-   1.13.6
+   1.14.6
