@@ -39,7 +39,7 @@ gem 'daemons'
 
 # Authentication with Devise and Security Extension
 gem 'devise'
-gem 'devise_security_extension'
+gem 'devise_security_extension', git: 'https://github.com/phatworx/devise_security_extension.git', branch: 'master'
 gem 'rails_email_validator'
 
 # Adding Bootstrap alpha version
