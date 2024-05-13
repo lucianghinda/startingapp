@@ -1,5 +1,6 @@
+NOTE: This repository is not maintained anymore. There are better starting kits and more up-to-date
+---
 # README
-
 
 # PURPOSE
 
